@@ -1,0 +1,87 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+   
+}
+.main{
+    background-color: rgba(253, 252, 251, 0.973);
+    width: 85vw;
+}
+.slidbar{
+    background-color: rgb(166, 173, 171);
+    width: 15vw;
+}
+.slidbar nav{
+    margin: 15px;
+    padding: 5px;
+}
+.slidbar nav li {
+list-style: none;
+font-size: 20px;
+padding: 26px 0;
+padding-left: 0px;
+}
+
+.slidbar li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.infocontainer{
+  margin: 60px;
+    /* background-color: blue; */
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+.pic img{
+    height: 80vh;
+    width: auto;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+  font-size: 50PX;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+.name{
+    font-size: 36PX;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+.about{
+    font-size: 30PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.btn {
+padding: 30px;
+
+}
+.btn button{
+    font-size: 20px;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    margin: 0 6px;
+    font-weight: bold;
+}
+.btn button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.moreabout{
+    font-size: 23px;
+}
